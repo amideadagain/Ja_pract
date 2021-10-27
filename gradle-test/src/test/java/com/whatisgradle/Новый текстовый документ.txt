@@ -1,0 +1,11 @@
+package com.whatisgradle;
+
+import org.junit.Test;
+
+public class GradleFirstTest {
+
+    @Test
+    public void verifyNoExeptionThrown() {
+        GradleFirst.main(new String[]{});
+    }
+}
